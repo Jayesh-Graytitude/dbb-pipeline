@@ -1,6 +1,6 @@
 // Agent labels
 def zOsAgentLabel = env.ZOS_AGENT_LABEL ? env.ZOS_AGENT_LABEL : 'sandbox'
-def linuxAgent = 'master'
+def linuxAgent = 'Built-In Node'
 
 // GIT repositories
 def srcGitRepo =  null
